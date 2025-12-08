@@ -65,4 +65,4 @@ Bạn có thể sử dụng một cuộc tấn công tương tự để khiến 
 * Cảnh báo:  
 Hãy cẩn thận khi chèn điều kiện `OR 1=1` vào truy vấn SQL. Ngay cả khi điều kiện có vẻ vô hại trong ngữ cảnh bạn đang chèn, các ứng dụng thường sử dụng dữ liệu từ một yêu cầu duy nhất trong nhiều truy vấn khác nhau. Ví dụ: nếu điều kiện của bạn đạt đến câu lệnh `UPDATE` hoặc `DELETE`, điều đó có thể dẫn đến mất dữ liệu ngoài ý muốn.  
 ### Phòng thí nghiệm: Lỗ hổng SQL injection trong mệnh đề WHERE cho phép truy xuất dữ liệu ẩn
-[Solution]("./lab1.py")
+[Solution](./lab1.py)
