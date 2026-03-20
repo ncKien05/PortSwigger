@@ -4,9 +4,9 @@
 | :--- | :--- | :--- |
 | Apprentice | SQL injection vulnerability in WHERE clause allowing retrieval of hidden data | [Solved](https://github.com/ncKien05/PortSwigger/blob/main/SQL%20INJECTION/lab1.py) |
 | Apprentice | SQL injection vulnerability allowing login bypass | [Solved](https://github.com/ncKien05/PortSwigger/blob/main/SQL%20INJECTION/lab2.py) |
-| Practitioner | SQL injection attack, querying the database type and version on Oracle | Not Solved |
-| Practitioner | SQL injection attack, querying the database type and version on MySQL and Microsoft | Not Solved |
-| Practitioner | SQL injection attack, listing the database contents on non-Oracle databases | Not Solved |
+| Practitioner | SQL injection attack, querying the database type and version on Oracle | [Solved](https://github.com/ncKien05/PortSwigger/blob/main/SQL%20INJECTION/lab4.py) |
+| Practitioner | SQL injection attack, querying the database type and version on MySQL and Microsoft | [Solved](https://github.com/ncKien05/PortSwigger/blob/main/SQL%20INJECTION/lab5.py) |
+| Practitioner | SQL injection attack, listing the database contents on non-Oracle databases | [Solved](https://github.com/ncKien05/PortSwigger/blob/main/SQL%20INJECTION/lab6.py) |
 | Practitioner | SQL injection attack, listing the database contents on Oracle | Not Solved |
 | Practitioner | SQL injection UNION attack, determining the number of columns returned by the query | Not Solved |
 | Practitioner | SQL injection UNION attack, finding a column containing text | Not Solved |
