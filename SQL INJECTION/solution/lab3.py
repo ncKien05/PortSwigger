@@ -1,7 +1,7 @@
 import requests
 import re
 
-HOST = "https://0a7b006204e66e7481cdc0f80035003c.web-security-academy.net"
+HOST = "https://YOUR_HOST"
 STOCK_URL = f"{HOST}/product/stock"
 LOGIN_URL = f"{HOST}/login"
 

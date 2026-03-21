@@ -3,7 +3,7 @@ import re
 from bs4 import BeautifulSoup
 
 # Thông tin cấu hình
-host = '0ab600b7035bfeea8217153400a90003.web-security-academy.net'
+host = 'YOUR_HOST'
 pathname = '/filter?category='
 login='/login'
 headers = {
