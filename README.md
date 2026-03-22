@@ -12,8 +12,8 @@
 | Practitioner | SQL injection UNION attack, finding a column containing text | [Solved](https://github.com/ncKien05/PortSwigger/blob/main/SQL%20INJECTION/solution/lab9.py) |
 | Practitioner | SQL injection UNION attack, retrieving data from other tables | Not Solved |
 | Practitioner | SQL injection UNION attack, retrieving multiple values in a single column | Not Solved |
-| Practitioner | Blind SQL injection with conditional responses | Not Solved |
-| Practitioner | Blind SQL injection with conditional errors | Not Solved |
+| Practitioner | Blind SQL injection with conditional responses | [Solved](https://github.com/ncKien05/PortSwigger/blob/main/SQL%20INJECTION/solution/lab10.py) |
+| Practitioner | Blind SQL injection with conditional errors | [Solved](https://github.com/ncKien05/PortSwigger/blob/main/SQL%20INJECTION/solution/lab11.py) |
 | Practitioner | Visible error-based SQL injection | Not Solved |
 | Practitioner | Blind SQL injection with time delays | Not Solved |
 | Practitioner | Blind SQL injection with time delays and information retrieval | Not Solved |
