@@ -93,7 +93,7 @@ Thông thường, dữ liệu bạn đang cố gắng đọc là một chuỗi k
 Loại truy vấn này cũng có thể hữu ích nếu giới hạn ký tự ngăn cản bạn kích hoạt các phản hồi có điều kiện.  
 
 ### Bài thực hành: Tấn công SQL injection dựa trên lỗi hiển thị  
-
+[SOLUTION](./solution/lab12.py)
 # Khai thác lỗ hổng SQL injection mù bằng cách kích hoạt độ trễ thời gian  
 Nếu ứng dụng bắt được lỗi cơ sở dữ liệu khi thực thi truy vấn SQL và xử lý chúng một cách khéo léo, thì phản hồi của ứng dụng sẽ không có gì khác biệt. Điều này có nghĩa là kỹ thuật tạo lỗi có điều kiện trước đó sẽ không hoạt động.  
 
