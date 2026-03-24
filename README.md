@@ -15,9 +15,9 @@
 | Practitioner | Blind SQL injection with conditional responses | [Solved](https://github.com/ncKien05/PortSwigger/blob/main/SQL%20INJECTION/solution/lab10.py) |
 | Practitioner | Blind SQL injection with conditional errors | [Solved](https://github.com/ncKien05/PortSwigger/blob/main/SQL%20INJECTION/solution/lab11.py) |
 | Practitioner | Visible error-based SQL injection | [Solved](https://github.com/ncKien05/PortSwigger/blob/main/SQL%20INJECTION/solution/lab12.py) |
-| Practitioner | Blind SQL injection with time delays | Not Solved |
-| Practitioner | Blind SQL injection with time delays and information retrieval | Not Solved |
-| Practitioner | Blind SQL injection with out-of-band interaction | Not Solved |
-| Practitioner | Blind SQL injection with out-of-band data exfiltration | Not Solved |
+| Practitioner | Blind SQL injection with time delays | [Solved](https://github.com/ncKien05/PortSwigger/blob/main/SQL%20INJECTION/solution/lab13.py) |
+| Practitioner | Blind SQL injection with time delays and information retrieval | [Solved](https://github.com/ncKien05/PortSwigger/blob/main/SQL%20INJECTION/solution/lab14.py) |
+| Practitioner | Blind SQL injection with out-of-band interaction | [Solved](https://github.com/ncKien05/PortSwigger/blob/main/SQL%20INJECTION/solution/lab15.py) |
+| Practitioner | Blind SQL injection with out-of-band data exfiltration | [Solved](https://github.com/ncKien05/PortSwigger/blob/main/SQL%20INJECTION/solution/lab16.py) |
 | Practitioner | SQL injection with filter bypass via XML encoding | [Solved](https://github.com/ncKien05/PortSwigger/blob/main/SQL%20INJECTION/solution/lab3.py) |
 
