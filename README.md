@@ -10,8 +10,8 @@
 | Practitioner | SQL injection attack, listing the database contents on Oracle | [Solved](https://github.com/ncKien05/PortSwigger/blob/main/SQL%20INJECTION/solution/lab7.py) |
 | Practitioner | SQL injection UNION attack, determining the number of columns returned by the query | [Solved](https://github.com/ncKien05/PortSwigger/blob/main/SQL%20INJECTION/solution/lab8.py) |
 | Practitioner | SQL injection UNION attack, finding a column containing text | [Solved](https://github.com/ncKien05/PortSwigger/blob/main/SQL%20INJECTION/solution/lab9.py) |
-| Practitioner | SQL injection UNION attack, retrieving data from other tables | Not Solved |
-| Practitioner | SQL injection UNION attack, retrieving multiple values in a single column | Not Solved |
+| Practitioner | SQL injection UNION attack, retrieving data from other tables | [Solved](https://github.com/ncKien05/PortSwigger/blob/main/SQL%20INJECTION/solution/lab18.py) |
+| Practitioner | SQL injection UNION attack, retrieving multiple values in a single column | [Solved](https://github.com/ncKien05/PortSwigger/blob/main/SQL%20INJECTION/solution/lab17.py) |
 | Practitioner | Blind SQL injection with conditional responses | [Solved](https://github.com/ncKien05/PortSwigger/blob/main/SQL%20INJECTION/solution/lab10.py) |
 | Practitioner | Blind SQL injection with conditional errors | [Solved](https://github.com/ncKien05/PortSwigger/blob/main/SQL%20INJECTION/solution/lab11.py) |
 | Practitioner | Visible error-based SQL injection | [Solved](https://github.com/ncKien05/PortSwigger/blob/main/SQL%20INJECTION/solution/lab12.py) |
