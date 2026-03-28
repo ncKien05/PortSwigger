@@ -28,6 +28,6 @@
 | Apprentice | File path traversal, simple case  | [Solved](https://github.com/ncKien05/PortSwigger/blob/main/Path%20Traversal/Solution/lab1.py) |
 | Practitioner | File path traversal, traversal sequences blocked with absolute path bypass | [Solved](https://github.com/ncKien05/PortSwigger/blob/main/Path%20Traversal/Solution/lab2.py) |
 | Practitioner | File path traversal, traversal sequences stripped non-recursively | [Solved](https://github.com/ncKien05/PortSwigger/blob/main/Path%20Traversal/Solution/lab3.py) |
-| Practitioner | File path traversal, traversal sequences stripped with superfluous URL-decode | [Not Solved] |
-| Practitioner | File path traversal, validation of start of path | [Not Solved] |
-| Practitioner | File path traversal, validation of file extension with null byte bypass | [Not Solved] |
+| Practitioner | File path traversal, traversal sequences stripped with superfluous URL-decode | [Solved](https://github.com/ncKien05/PortSwigger/blob/main/Path%20Traversal/Solution/lab4.py) |
+| Practitioner | File path traversal, validation of start of path | [Solved](https://github.com/ncKien05/PortSwigger/blob/main/Path%20Traversal/Solution/lab5.py) |
+| Practitioner | File path traversal, validation of file extension with null byte bypass | [Solved](https://github.com/ncKien05/PortSwigger/blob/main/Path%20Traversal/Solution/lab6.py) |
