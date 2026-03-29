@@ -31,3 +31,13 @@
 | Practitioner | File path traversal, traversal sequences stripped with superfluous URL-decode | [Solved](https://github.com/ncKien05/PortSwigger/blob/main/Path%20Traversal/Solution/lab4.py) |
 | Practitioner | File path traversal, validation of start of path | [Solved](https://github.com/ncKien05/PortSwigger/blob/main/Path%20Traversal/Solution/lab5.py) |
 | Practitioner | File path traversal, validation of file extension with null byte bypass | [Solved](https://github.com/ncKien05/PortSwigger/blob/main/Path%20Traversal/Solution/lab6.py) |
+
+# OS Command Injection
+
+| Difficulty | Title | Status |
+| :--- | :--- | :--- |
+| Apprentice | OS command injection, simple case | [Solved](https://github.com/ncKien05/PortSwigger/blob/main/Command%20Injection/Solution/lab1.py) |
+| Practitioner | Blind OS command injection with time delays | [Solved](https://github.com/ncKien05/PortSwigger/blob/main/Command%20Injection/Solution/lab2.py) |
+| Practitioner | Blind OS command injection with output redirection | [Solved](https://github.com/ncKien05/PortSwigger/blob/main/Command%20Injection/Solution/lab3.py) |
+| Practitioner | Blind OS command injection with out-of-band interaction | [Solved](https://github.com/ncKien05/PortSwigger/blob/main/Command%20Injection/Solution/lab4.py) |
+| Practitioner | Blind OS command injection with out-of-band data exfiltration | [Solved](https://github.com/ncKien05/PortSwigger/blob/main/Command%20Injection/Solution/lab5.py) |
