@@ -40,7 +40,7 @@ Ba dòng kết quả đầu ra này chứng minh rằng:
 Việc đặt thêm dấu phân cách lệnh `&` sau lệnh được chèn rất hữu ích vì nó tách lệnh được chèn khỏi bất cứ thứ gì theo sau điểm chèn. Điều này làm giảm khả năng những gì theo sau sẽ ngăn cản lệnh được chèn thực thi.  
 
 ### Thực hành: Tấn công chèn lệnh hệ điều hành, trường hợp đơn giản  
-
+[Solved](https://github.com/ncKien05/PortSwigger/blob/main/Command%20Injection/Solution/lab1.py)
 # Các lệnh hữu ích  
 
 Sau khi xác định được lỗ hổng tấn công chèn lệnh hệ điều hành, việc thực hiện một số lệnh ban đầu để thu thập thông tin về hệ thống là rất hữu ích. Dưới đây là tóm tắt một số lệnh hữu ích trên nền tảng Linux và Windows:  
