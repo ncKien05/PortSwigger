@@ -38,7 +38,7 @@ Nếu số lượng giá trị null không khớp với số lượng cột, cơ
 Chúng tôi sử dụng `NULL` các giá trị trả về từ truy `SELECT` vấn được chèn vì kiểu dữ liệu trong mỗi cột phải tương thích giữa truy vấn gốc và truy vấn được chèn. `NULL` Kiểu dữ liệu này có thể chuyển đổi sang mọi kiểu dữ liệu phổ biến, do đó nó tối đa hóa khả năng thành công của tải trọng khi số lượng cột chính xác.  
 Cũng giống như `ORDER BY` kỹ thuật này, ứng dụng có thể thực sự trả về lỗi cơ sở dữ liệu trong phản hồi HTTP của nó, nhưng có thể trả về lỗi chung chung hoặc đơn giản là không trả về kết quả nào. Khi số lượng giá trị null khớp với số lượng cột, cơ sở dữ liệu sẽ trả về một hàng bổ sung trong tập kết quả, chứa các giá trị null trong mỗi cột. Ảnh hưởng đến phản hồi HTTP phụ thuộc vào mã của ứng dụng. Nếu may mắn, bạn sẽ thấy một số nội dung bổ sung trong phản hồi, chẳng hạn như một hàng bổ sung trên bảng HTML. Nếu không, các giá trị null có thể gây ra một lỗi khác, chẳng hạn như lỗi `NullPointerException` . Trong trường hợp xấu nhất, phản hồi có thể trông giống như phản hồi do số lượng giá trị null không chính xác gây ra. Điều này sẽ làm cho phương pháp này không hiệu quả.  
 ## Bài thực hành: Tấn công SQL injection UNION, xác định số lượng cột được trả về bởi truy vấn.  
-[SOLUTION](./solution/lab8.PY)
+[SOLUTION](./solution/lab8.py)
 # Cú pháp dành riêng cho cơ sở dữ liệu  
 Trên Oracle, mọi `SELECT` truy vấn đều phải sử dụng `FROM` từ khóa và chỉ định một bảng hợp lệ. Có một bảng tích hợp sẵn trên Oracle có tên là `<table>` `dual` có thể được sử dụng cho mục đích này. Vì vậy, các truy vấn được chèn vào Oracle sẽ cần có dạng như sau:  
 `' UNION SELECT NULL FROM DUAL--`  
