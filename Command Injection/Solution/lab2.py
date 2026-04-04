@@ -3,7 +3,7 @@ import re
 import urllib.parse
 from bs4 import BeautifulSoup
 
-Host='0ac4002b049980d1835515cc006e0073.web-security-academy.net'
+Host='YOUR_HOST'
 Path='/feedback'
 
 s=requests.Session()

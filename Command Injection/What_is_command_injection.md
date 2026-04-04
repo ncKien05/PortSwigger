@@ -40,7 +40,8 @@ Ba dòng kết quả đầu ra này chứng minh rằng:
 Việc đặt thêm dấu phân cách lệnh `&` sau lệnh được chèn rất hữu ích vì nó tách lệnh được chèn khỏi bất cứ thứ gì theo sau điểm chèn. Điều này làm giảm khả năng những gì theo sau sẽ ngăn cản lệnh được chèn thực thi.  
 
 ### Thực hành: Tấn công chèn lệnh hệ điều hành, trường hợp đơn giản  
-[Solved](https://github.com/ncKien05/PortSwigger/blob/main/Command%20Injection/Solution/lab1.py)
+[Solved](https://github.com/ncKien05/PortSwigger/blob/main/Command%20Injection/Solution/lab1.py)  
+
 # Các lệnh hữu ích  
 
 Sau khi xác định được lỗ hổng tấn công chèn lệnh hệ điều hành, việc thực hiện một số lệnh ban đầu để thu thập thông tin về hệ thống là rất hữu ích. Dưới đây là tóm tắt một số lệnh hữu ích trên nền tảng Linux và Windows:  
@@ -68,8 +69,8 @@ Bạn có thể sử dụng lệnh được chèn để kích hoạt độ trễ
 
 `& ping -c 10 127.0.0.1 &`  
 
-
 ### Thí nghiệm: Tấn công chèn lệnh hệ điều hành mù với độ trễ thời gian  
+[SOLUTION](https://github.com/ncKien05/PortSwigger/blob/main/Command%20Injection/Solution/lab2.py)  
 
 ## Khai thác lỗ hổng tấn công chèn lệnh hệ điều hành ngầm bằng cách chuyển hướng đầu ra.  
 
@@ -80,6 +81,7 @@ Bạn có thể chuyển hướng đầu ra từ lệnh được chèn vào mộ
 Nhân vật này `>` sẽ gửi kết quả đầu ra từ `whoami` lệnh đến tệp được chỉ định. Sau đó, bạn có thể sử dụng trình duyệt `https://vulnerable-website.com/whoami.txt` để tải xuống tệp và xem kết quả đầu ra từ lệnh đã được chèn.  
 
 ### Thực hành: Tấn công chèn lệnh hệ điều hành ẩn với chuyển hướng đầu ra  
+[SOLUTION](https://github.com/ncKien05/PortSwigger/blob/main/Command%20Injection/Solution/lab3.py)  
 
 ## Khai thác lỗ hổng tấn công chèn lệnh hệ điều hành ẩn bằng kỹ thuật ngoài băng tần (OAST).  
 
@@ -90,6 +92,7 @@ Bạn có thể sử dụng một lệnh được chèn vào để kích hoạt 
 Đoạn mã độc này sử dụng `nslookup` lệnh để thực hiện tra cứu DNS cho tên miền được chỉ định. Kẻ tấn công có thể theo dõi xem quá trình tra cứu có diễn ra hay không, để xác nhận xem lệnh đã được chèn thành công hay chưa.  
 
 ### Thực hành: Tấn công chèn lệnh hệ điều hành mù với tương tác ngoài băng tần  
+[SOLUTION](https://github.com/ncKien05/PortSwigger/blob/main/Command%20Injection/Solution/lab4.py)  
 
 Kênh ngoài băng tần cung cấp một cách dễ dàng để trích xuất dữ liệu đầu ra từ các lệnh được chèn vào:  
 
@@ -100,6 +103,7 @@ Kênh ngoài băng tần cung cấp một cách dễ dàng để trích xuất d
 `wwwuser.kgji2ohoyw.web-attacker.com`  
 
 ### Thực hành: Tấn công chèn lệnh hệ điều hành mù với rò rỉ dữ liệu ngoài băng tần  
+[SOLUTION](https://github.com/ncKien05/PortSwigger/blob/main/Command%20Injection/Solution/lab5.py)  
 
 # Các phương pháp chèn lệnh hệ điều hành  
 
