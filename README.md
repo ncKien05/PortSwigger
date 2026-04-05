@@ -41,3 +41,11 @@
 | Practitioner | Blind OS command injection with output redirection | [Solved](https://github.com/ncKien05/PortSwigger/blob/main/Command%20Injection/Solution/lab3.py) |
 | Practitioner | Blind OS command injection with out-of-band interaction | [Solved](https://github.com/ncKien05/PortSwigger/blob/main/Command%20Injection/Solution/lab4.py) |
 | Practitioner | Blind OS command injection with out-of-band data exfiltration | [Solved](https://github.com/ncKien05/PortSwigger/blob/main/Command%20Injection/Solution/lab5.py) |
+
+# CORS
+
+| Difficulty | Title | Status |
+| :--- | :--- | :--- |
+| Apprentice | CORS vulnerability with basic origin reflection | [Solved](https://github.com/ncKien05/PortSwigger/blob/main/CORS/Solution/lab1.py) |
+| Apprentice | CORS vulnerability with trusted null origin | [Solved](https://github.com/ncKien05/PortSwigger/blob/main/CORS/Solution/lab2.py) |
+| Practitioner | CORS vulnerability with trusted insecure protocols | [Solved](https://github.com/ncKien05/PortSwigger/blob/main/CORS/Solution/lab3.py) |
