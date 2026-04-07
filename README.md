@@ -49,3 +49,12 @@
 | Apprentice | CORS vulnerability with basic origin reflection | [Solved](https://github.com/ncKien05/PortSwigger/blob/main/CORS/Solution/lab1.py) |
 | Apprentice | CORS vulnerability with trusted null origin | [Solved](https://github.com/ncKien05/PortSwigger/blob/main/CORS/Solution/lab2.py) |
 | Practitioner | CORS vulnerability with trusted insecure protocols | [Solved](https://github.com/ncKien05/PortSwigger/blob/main/CORS/Solution/lab3.py) |
+
+# NoSQL Injection
+
+| Difficulty | Title | Status |
+| :--- | :--- | :--- |
+| Apprentice | Detecting NoSQL injection | [Solved](https://github.com/ncKien05/PortSwigger/blob/main/NoSql_Injection/Solution/lab1.py) |
+| Apprentice | Exploiting NoSQL operator injection to bypass authentication | [Solved](https://github.com/ncKien05/PortSwigger/blob/main/NoSql_Injection/Solution/lab2.py) |
+| Practitioner | Exploiting NoSQL injection to extract data | [Solved](https://github.com/ncKien05/PortSwigger/blob/main/NoSql_Injection/Solution/lab3.py) |
+| Practitioner | Exploiting NoSQL operator injection to extract unknown fields | [Solved](https://github.com/ncKien05/PortSwigger/blob/main/NoSql_Injection/Solution/lab4.py) |
