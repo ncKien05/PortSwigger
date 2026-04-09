@@ -58,3 +58,17 @@
 | Apprentice | Exploiting NoSQL operator injection to bypass authentication | [Solved](https://github.com/ncKien05/PortSwigger/blob/main/NoSql_Injection/Solution/lab2.py) |
 | Practitioner | Exploiting NoSQL injection to extract data | [Solved](https://github.com/ncKien05/PortSwigger/blob/main/NoSql_Injection/Solution/lab3.py) |
 | Practitioner | Exploiting NoSQL operator injection to extract unknown fields | [Solved](https://github.com/ncKien05/PortSwigger/blob/main/NoSql_Injection/Solution/lab4.py) |
+
+# SSRF
+
+| Difficulty | Title | Status |
+| :--- | :--- | :--- |
+| Apprentice | Basic SSRF against the local server | [Solved](https://github.com/ncKien05/PortSwigger/blob/main/SSRF/Solution/lab1.py) |
+| Apprentice | Basic SSRF against another back-end system | [Solved](https://github.com/ncKien05/PortSwigger/blob/main/SSRF/Solution/lab2.py) |
+| Practitioner | SSRF with blacklist-based input filter | [Solved](https://github.com/ncKien05/PortSwigger/blob/main/SSRF/Solution/lab3.py) |
+| Expert | SSRF with whitelist-based input filter | [Solved](https://github.com/ncKien05/PortSwigger/blob/main/SSRF/Solution/lab4.py) |
+| Practitioner | SSRF with filter bypass via open redirection vulnerability | [Solved](https://github.com/ncKien05/PortSwigger/blob/main/SSRF/Solution/lab5.py) |
+| Practitioner | Blind SSRF with out-of-band detection | [Solved](https://github.com/ncKien05/PortSwigger/blob/main/SSRF/Solution/lab6.py) |
+| Expert | Blind SSRF with Shellshock exploitation | [Solved](https://github.com/ncKien05/PortSwigger/blob/main/SSRF/Solution/lab7.py) |
+
+
