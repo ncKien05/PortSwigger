@@ -71,4 +71,12 @@
 | Practitioner | Blind SSRF with out-of-band detection | [Solved](https://github.com/ncKien05/PortSwigger/blob/main/SSRF/Solution/lab6.py) |
 | Expert | Blind SSRF with Shellshock exploitation | [Solved](https://github.com/ncKien05/PortSwigger/blob/main/SSRF/Solution/lab7.py) |
 
+# Api Testing
 
+| Difficulty | Title | Status |
+| :--- | :--- | :--- |
+| Apprentice | Exploiting an API endpoint using documentation | [Solved](https://github.com/ncKien05/PortSwigger/blob/main/API_Testing/Solution/lab1.py) |
+| Practitioner | Exploiting server-side parameter pollution in a query string | [Solved](https://github.com/ncKien05/PortSwigger/blob/main/API_Testing/Solution/lab2.py) |
+| Practitioner | Finding and exploiting an unused API endpoint | [Solved](https://github.com/ncKien05/PortSwigger/blob/main/API_Testing/Solution/lab3.py) |
+| Practitioner | Exploiting a mass assignment vulnerability | [Solved](https://github.com/ncKien05/PortSwigger/blob/main/API_Testing/Solution/lab4.py) |
+| Expert | Exploiting server-side parameter pollution in a REST URL | [Solved](https://github.com/ncKien05/PortSwigger/blob/main/API_Testing/Solution/lab5.py) |
