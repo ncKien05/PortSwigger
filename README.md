@@ -80,3 +80,13 @@
 | Practitioner | Finding and exploiting an unused API endpoint | [Solved](https://github.com/ncKien05/PortSwigger/blob/main/API_Testing/Solution/lab3.py) |
 | Practitioner | Exploiting a mass assignment vulnerability | [Solved](https://github.com/ncKien05/PortSwigger/blob/main/API_Testing/Solution/lab4.py) |
 | Expert | Exploiting server-side parameter pollution in a REST URL | [Solved](https://github.com/ncKien05/PortSwigger/blob/main/API_Testing/Solution/lab5.py) |
+
+# Information disclosure
+
+| Difficulty | Title | Status |
+| :--- | :--- | :--- |
+| Apprentice | Information disclosure in error messages | [Solved](https://github.com/ncKien05/PortSwigger/blob/main/Information_disclosure/Solution/lab1.py) |
+| Apprentice | Information disclosure on debug page | [Solved](https://github.com/ncKien05/PortSwigger/blob/main/Information_disclosure/Solution/lab2.py) |
+| Apprentice | Source code disclosure via backup files | [Solved](https://github.com/ncKien05/PortSwigger/blob/main/Information_disclosure/Solution/lab3.py) |
+| Apprentice | Authentication bypass via information disclosure | [Solved](https://github.com/ncKien05/PortSwigger/blob/main/Information_disclosure/Solution/lab4.py) |
+| Practitioner | Information disclosure in version control history | [Solved](https://github.com/ncKien05/PortSwigger/blob/main/Information_disclosure/Solution/lab5.py) |
