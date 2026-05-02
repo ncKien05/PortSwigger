@@ -20,7 +20,7 @@ Hãy xem xét một ứng dụng dễ bị tấn công cho phép bạn tìm ki�
 
 ## Cắt ngắn chuỗi truy vấn  
 
-Bạn có thể sử dụng ký tự được mã hóa URL `#` để cố gắng cắt bớt yêu cầu phía máy chủ. Để giúp bạn hiểu phản hồi, bạn cũng có thể thêm một chuỗi sau `#` ký tự đó.
+Bạn có thể sử dụng ký tự được mã hóa URL `#` để cố gắng cắt bớt yêu cầu phía máy chủ. Để giúp bạn hiểu phản hồi, bạn cũng có thể thêm một chuỗi sau ký tự `#`.
 
 Ví dụ, bạn có thể sửa đổi chuỗi truy vấn thành như sau:
 
