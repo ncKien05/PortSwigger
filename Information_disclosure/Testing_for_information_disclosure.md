@@ -105,3 +105,20 @@ Một khi kẻ tấn công có quyền truy cập vào mã nguồn, đây có th
 #### Thực hành: Lộ mã nguồn thông qua các tập tin sao lưu.  
 [Solution](https://github.com/ncKien05/PortSwigger/blob/main/Information_disclosure/Solution/lab3.py)   
 
+## Thông tin bị lộ do cấu hình không an toàn  
+Các trang web đôi khi dễ bị tấn công do cấu hình không đúng cách. Điều này đặc biệt phổ biến do việc sử dụng rộng rãi các công nghệ của bên thứ ba, với vô số tùy chọn cấu hình mà những người triển khai chúng không nhất thiết phải hiểu rõ.
+
+Trong một số trường hợp khác, các nhà phát triển có thể quên tắt các tùy chọn gỡ lỗi khác nhau trong môi trường sản xuất. Ví dụ, phương thức HTTP `TRACE` được thiết kế cho mục đích chẩn đoán. Nếu được bật, máy chủ web sẽ phản hồi các yêu cầu sử dụng `TRACE` phương thức này bằng cách in lại chính xác yêu cầu đã nhận được. Hành vi này thường vô hại, nhưng đôi khi dẫn đến việc tiết lộ thông tin, chẳng hạn như tên của các tiêu đề xác thực nội bộ có thể được thêm vào các yêu cầu bởi các máy chủ proxy ngược.  
+
+#### Thí nghiệm: Vượt qua xác thực thông qua tiết lộ thông tin  
+[Solution](https://github.com/ncKien05/PortSwigger/blob/main/Information_disclosure/Solution/lab4.py)  
+
+## Lịch sử kiểm soát phiên bản  
+Hầu hết các trang web đều được phát triển bằng một số hệ thống kiểm soát phiên bản, chẳng hạn như Git. Theo mặc định, một dự án Git lưu trữ tất cả dữ liệu kiểm soát phiên bản của nó trong một thư mục có tên là `.gitignore` .git. Đôi khi, các trang web hiển thị thư mục này trong môi trường sản xuất. Trong trường hợp này, bạn có thể truy cập nó bằng cách đơn giản là duyệt đến ` /.git.gitignore`.
+
+Mặc dù việc tự mình duyệt qua cấu trúc và nội dung tệp tin thô thường không thực tế, nhưng có nhiều phương pháp để tải xuống toàn bộ `.git` thư mục. Sau đó, bạn có thể mở nó bằng Git đã cài đặt trên máy tính của mình để truy cập vào lịch sử kiểm soát phiên bản của trang web. Điều này có thể bao gồm nhật ký chứa các thay đổi đã được cam kết và các thông tin thú vị khác.
+
+Việc này có thể không cho phép bạn truy cập vào toàn bộ mã nguồn, nhưng việc so sánh sự khác biệt sẽ giúp bạn đọc được những đoạn mã nhỏ. Cũng như bất kỳ mã nguồn nào khác, bạn cũng có thể tìm thấy dữ liệu nhạy cảm được mã hóa cứng trong một số dòng đã thay đổi.  
+
+#### Thực hành: Tiết lộ thông tin trong lịch sử kiểm soát phiên bản  
+[Solution](https://github.com/ncKien05/PortSwigger/blob/main/Information_disclosure/Solution/lab5.py)  
