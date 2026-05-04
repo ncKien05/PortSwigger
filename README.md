@@ -90,3 +90,21 @@
 | Apprentice | Source code disclosure via backup files | [Solved](https://github.com/ncKien05/PortSwigger/blob/main/Information_disclosure/Solution/lab3.py) |
 | Apprentice | Authentication bypass via information disclosure | [Solved](https://github.com/ncKien05/PortSwigger/blob/main/Information_disclosure/Solution/lab4.py) |
 | Practitioner | Information disclosure in version control history | [Solved](https://github.com/ncKien05/PortSwigger/blob/main/Information_disclosure/Solution/lab5.py) |
+
+# Access Control Vulnerabilities  
+| Difficulty | Title | Status |  
+| :--- | :--- | :--- |  
+| Apprentice | Unprotected admin functionality |  [Solved](https://github.com/ncKien05/PortSwigger/blob/main/Access_Control_Vulnerabilities/Solution/lab1.py) |
+| Apprentice | Unprotected admin functionality with unpredictable URL |  [Solved](https://github.com/ncKien05/PortSwigger/blob/main/Access_Control_Vulnerabilities/Solution/lab2.py) |
+| Apprentice | User role controlled by request parameter |  [Solved](https://github.com/ncKien05/PortSwigger/blob/main/Access_Control_Vulnerabilities/Solution/lab3.py) |
+| Apprentice | User role can be modified in user profile |  [Solved](https://github.com/ncKien05/PortSwigger/blob/main/Access_Control_Vulnerabilities/Solution/lab4.py) |
+| Practitioner | URL-based access control can be circumvented |  [Solved](https://github.com/ncKien05/PortSwigger/blob/main/Access_Control_Vulnerabilities/Solution/lab5.py) |
+| Practitioner | Method-based access control can be circumvented |  [Solved](https://github.com/ncKien05/PortSwigger/blob/main/Access_Control_Vulnerabilities/Solution/lab6.py) |
+| Apprentice | User ID controlled by request parameter |  [Solved](https://github.com/ncKien05/PortSwigger/blob/main/Access_Control_Vulnerabilities/Solution/lab7.py) |
+| Apprentice | User ID controlled by request parameter, with unpredictable user IDs |  [Solved](https://github.com/ncKien05/PortSwigger/blob/main/Access_Control_Vulnerabilities/Solution/lab8.py) |
+| Apprentice | User ID controlled by request parameter with data leakage in redirect |  [Solved](https://github.com/ncKien05/PortSwigger/blob/main/Access_Control_Vulnerabilities/Solution/lab9.py) |
+| Apprentice | User ID controlled by request parameter with password disclosure |  [Solved](https://github.com/ncKien05/PortSwigger/blob/main/Access_Control_Vulnerabilities/Solution/lab10.py) |
+| Apprentice | Insecure direct object references |  [Solved](https://github.com/ncKien05/PortSwigger/blob/main/Access_Control_Vulnerabilities/Solution/lab11.py) |
+| Practitioner | Multi-step process with no access control on one step |  [Solved](https://github.com/ncKien05/PortSwigger/blob/main/Access_Control_Vulnerabilities/Solution/lab12.py) |
+| Practitioner | Referer-based access control |  [Solved](https://github.com/ncKien05/PortSwigger/blob/main/Access_Control_Vulnerabilities/Solution/lab13.py) |
+
