@@ -36,7 +36,7 @@ Ví dụ, một trang web có thể lưu trữ các chức năng nhạy cảm t�
 Thông tin này có thể được truy cập bởi bất kỳ người dùng nào, không chỉ người dùng quản trị có liên kết đến chức năng này trong giao diện người dùng của họ. Trong một số trường hợp, URL quản trị có thể được tiết lộ ở những vị trí khác, chẳng hạn như trong tệp `robots.txt`:  
 `https://insecure-website.com/robots.txt`  
 
-Ngay cả khi URL không được tiết lộ ở bất kỳ đâu, kẻ tấn công vẫn có thể sử dụng danh sách từ để dò tìm vị trí của chức năng nhạy cảm bằng phương pháp vét cạn. 
+Ngay cả khi URL không được tiết lộ ở bất kỳ 	đâu, kẻ tấn công vẫn có thể sử dụng danh sách từ để dò tìm vị trí của chức năng nhạy cảm bằng phương pháp vét cạn. 
 
 #### Phòng thí nghiệm: Chức năng quản trị không được bảo vệ  
 [Solution](https://github.com/ncKien05/PortSwigger/blob/main/Access_Control_Vulnerabilities/Solution/lab1.py)
@@ -158,13 +158,15 @@ Lỗ hổng tham chiếu trực tiếp đối tượng không an toàn (IDOR) l�
 ## Các lỗ hổng kiểm soát truy cập trong quy trình nhiều bước  
 Nhiều trang web triển khai các chức năng quan trọng thông qua một chuỗi các bước. Điều này thường xảy ra khi:
 
-Cần thu thập nhiều thông tin đầu vào hoặc tùy chọn khác nhau.
-Người dùng cần xem xét và xác nhận các chi tiết trước khi thực hiện thao tác.
+* Cần thu thập nhiều thông tin đầu vào hoặc tùy chọn khác nhau.
+* Người dùng cần xem xét và xác nhận các chi tiết trước khi thực hiện thao tác.
+
 Ví dụ, chức năng quản trị để cập nhật thông tin người dùng có thể bao gồm các bước sau:
 
-Tải biểu mẫu chứa thông tin chi tiết của một người dùng cụ thể.
-Gửi các thay đổi.
-Xem lại các thay đổi và xác nhận.
+* Tải biểu mẫu chứa thông tin chi tiết của một người dùng cụ thể.
+* Gửi các thay đổi.
+* Xem lại các thay đổi và xác nhận.
+
 Đôi khi, một trang web sẽ áp dụng các biện pháp kiểm soát truy cập nghiêm ngặt đối với một số bước, nhưng lại bỏ qua những bước khác. Hãy tưởng tượng một trang web mà các biện pháp kiểm soát truy cập được áp dụng chính xác cho bước thứ nhất và thứ hai, nhưng không áp dụng cho bước thứ ba. Trang web cho rằng người dùng chỉ có thể đến bước 3 nếu họ đã hoàn thành hai bước đầu tiên, vốn được kiểm soát đúng cách. Kẻ tấn công có thể truy cập trái phép vào chức năng bằng cách bỏ qua hai bước đầu tiên và trực tiếp gửi yêu cầu cho bước thứ ba với các tham số cần thiết.  
 
 #### Thí nghiệm: Quy trình nhiều bước, không có kiểm soát truy cập ở một bước nào đó.  
