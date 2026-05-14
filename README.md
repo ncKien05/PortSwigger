@@ -108,3 +108,16 @@
 | Practitioner | Multi-step process with no access control on one step |  [Solved](https://github.com/ncKien05/PortSwigger/blob/main/Access_Control_Vulnerabilities/Solution/lab12.py) |
 | Practitioner | Referer-based access control |  [Solved](https://github.com/ncKien05/PortSwigger/blob/main/Access_Control_Vulnerabilities/Solution/lab13.py) |
 
+# XXE_Injection
+
+| Difficulty | Title | Status |
+| :--- | :--- | :--- |
+| Apprentice | Exploiting XXE using external entities to retrieve files | [Solved](https://github.com/ncKien05/PortSwigger/blob/main/XXE_injection/Solution/lab1.py) |
+| Apprentice | Exploiting XXE to perform SSRF attacks | [Solved](https://github.com/ncKien05/PortSwigger/blob/main/XXE_injection/Solution/lab2.py) |
+| Practitioner | Exploiting XInclude to retrieve files | [Solved](https://github.com/ncKien05/PortSwigger/blob/main/XXE_injection/Solution/lab3.py) |
+| Practitioner | Exploiting XXE via image file upload | [Solved](https://github.com/ncKien05/PortSwigger/blob/main/XXE_injection/Solution/lab4.py) |
+| Practitioner | Blind XXE with out-of-band interaction | [Solved](https://github.com/ncKien05/PortSwigger/blob/main/XXE_injection/Solution/lab5.py) |
+| Practitioner | Blind XXE with out-of-band interaction via XML parameter entities | [Solved](https://github.com/ncKien05/PortSwigger/blob/main/XXE_injection/Solution/lab6.py) |
+| Practitioner | Exploiting blind XXE to exfiltrate data using a malicious external DTD | [Solved](https://github.com/ncKien05/PortSwigger/blob/main/XXE_injection/Solution/lab7.py) |
+| Practitioner | Exploiting blind XXE to retrieve data via error messages | [Solved](https://github.com/ncKien05/PortSwigger/blob/main/XXE_injection/Solution/lab8.py) |
+| Expert | Exploiting XXE to retrieve data by repurposing a local DTD | [Solved](https://github.com/ncKien05/PortSwigger/blob/main/XXE_injection/Solution/lab9.py) |

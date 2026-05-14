@@ -1,6 +1,6 @@
 import requests
 
-target_URL = "https://0aab00a10333e0d687453f4400c200e1.web-security-academy.net"
+target_URL = "YOUR_URL"
 headers = {
     "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:140.0) Gecko/20100101 Firefox/140.0",
     "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
