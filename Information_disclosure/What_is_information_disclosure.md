@@ -17,7 +17,7 @@ Thỉnh thoảng, thông tin nhạy cảm có thể bị rò rỉ một cách b�
 ## Ví dụ về việc tiết lộ thông tin  
 Dưới đây là một số ví dụ cơ bản về việc tiết lộ thông tin:
 
-* Tiết lộ tên các thư mục ẩn, cấu trúc và nội dung của chúng thông qua robots.txtdanh sách tệp hoặc thư mục.
+* Tiết lộ tên các thư mục ẩn, cấu trúc và nội dung của chúng thông qua danh sách tệp hoặc thư mục `robots.txt`.
 * Cung cấp quyền truy cập vào các tệp mã nguồn thông qua các bản sao lưu tạm thời.
 * Nêu rõ tên bảng hoặc cột trong thông báo lỗi.
 * Tiết lộ thông tin nhạy cảm một cách không cần thiết, chẳng hạn như chi tiết thẻ tín dụng.

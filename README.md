@@ -126,33 +126,33 @@
 
 | Difficulty | Title | Status |
 | :--- | :--- | :--- |
-| Apprentice | Reflected XSS into HTML context with nothing encoded | [Solved](https://github.com/ncKien05/PortSwigger/blob/main/Cross-Site_Scripting/Solution/lab1.py) |
-| Apprentice | Stored XSS into HTML context with nothing encoded | [Solved](https://github.com/ncKien05/PortSwigger/blob/main/Cross-Site_Scripting/Solution/lab2.py) |
-| Apprentice | DOM XSS in `document.write` sink using source `location.search` | [Solved](https://github.com/ncKien05/PortSwigger/blob/main/Cross-Site_Scripting/Solution/lab3.py) |
-| Apprentice | DOM XSS in `innerHTML` sink using source `location.search` | [Solved](https://github.com/ncKien05/PortSwigger/blob/main/Cross-Site_Scripting/Solution/lab5.py) |
-| Apprentice | DOM XSS in jQuery anchor `href` attribute sink using `location.search` source | [Solved](https://github.com/ncKien05/PortSwigger/blob/main/Cross-Site_Scripting/Solution/lab6.py) |
-| Apprentice | DOM XSS in jQuery selector sink using a hashchange event | [Solved](https://github.com/ncKien05/PortSwigger/blob/main/Cross-Site_Scripting/Solution/lab7.py) |
-| Apprentice | Reflected XSS into attribute with angle brackets HTML-encoded | [Solved](https://github.com/ncKien05/PortSwigger/blob/main/Cross-Site_Scripting/Solution/lab19.py) |
-| Apprentice | Stored XSS into anchor `href` attribute with double quotes HTML-encoded | [Not Solved] |
-| Apprentice | Reflected XSS into a JavaScript string with angle brackets HTML encoded | [Not Solved] |
-| Practitioner | DOM XSS in `document.write` sink using source `location.search` inside a `select` element | [Solved](https://github.com/ncKien05/PortSwigger/blob/main/Cross-Site_Scripting/Solution/lab4.py) |
-| Practitioner | DOM XSS in AngularJS expression with angle brackets and double quotes HTML-encoded | [Solved](https://github.com/ncKien05/PortSwigger/blob/main/Cross-Site_Scripting/Solution/lab8.py) |
-| Practitioner | Reflected DOM XSS | [Solved](https://github.com/ncKien05/PortSwigger/blob/main/Cross-Site_Scripting/Solution/lab9.py) |
-| Practitioner | Stored DOM XSS | [Solved](https://github.com/ncKien05/PortSwigger/blob/main/Cross-Site_Scripting/Solution/lab10.py) |
-| Practitioner | Reflected XSS into HTML context with most tags and attributes blocked | [Solved](https://github.com/ncKien05/PortSwigger/blob/main/Cross-Site_Scripting/Solution/lab11.py) |
-| Practitioner | Reflected XSS into HTML context with all tags blocked except custom ones | [Solved](https://github.com/ncKien05/PortSwigger/blob/main/Cross-Site_Scripting/Solution/lab12.py) |
-| Practitioner | Reflected XSS with some SVG markup allowed | [Solved](https://github.com/ncKien05/PortSwigger/blob/main/Cross-Site_Scripting/Solution/lab14.py) |
-| Practitioner | Reflected XSS in canonical link tag | [Not Solved] |
-| Practitioner | Reflected XSS into a JavaScript string with single quote and backslash escaped | [Solved](https://github.com/ncKien05/PortSwigger/blob/main/Cross-Site_Scripting/Solution/lab18.py) |
-| Practitioner | Reflected XSS into a JavaScript string with angle brackets and double quotes HTML-encoded and single quotes escaped | [Solution](https://github.com/ncKien05/PortSwigger/blob/main/Cross-site%20scripting/Solution/lab20.py) |
-| Practitioner | Stored XSS into `onclick` event with angle brackets and double quotes HTML-encoded and single quotes and backslash escaped | [Not Solved] |
-| Practitioner | Reflected XSS into a template literal with angle brackets, single, double quotes, backslash and backticks Unicode-escaped | [Not Solved] |
+| Apprentice | Reflected XSS into HTML context with nothing encoded | [Solved](https://github.com/ncKien05/PortSwigger/blob/main/Cross-site%20scripting/Solution/lab1.py) |
+| Apprentice | Stored XSS into HTML context with nothing encoded | [Solved](https://github.com/ncKien05/PortSwigger/blob/main/Cross-site%20scripting/Solution/lab2.py) |
+| Apprentice | DOM XSS in `document.write` sink using source `location.search` | [Solved](https://github.com/ncKien05/PortSwigger/blob/main/Cross-site%20scripting/Solution/lab3.py) |
+| Apprentice | DOM XSS in `innerHTML` sink using source `location.search` | [Solved](https://github.com/ncKien05/PortSwigger/blob/main/Cross-site%20scripting/Solution/lab5.py) |
+| Apprentice | DOM XSS in jQuery anchor `href` attribute sink using `location.search` source | [Solved](https://github.com/ncKien05/PortSwigger/blob/main/Cross-site%20scripting/Solution/lab6.py) |
+| Apprentice | DOM XSS in jQuery selector sink using a hashchange event | [Solved](https://github.com/ncKien05/PortSwigger/blob/main/Cross-site%20scripting/Solution/lab7.py) |
+| Apprentice | Reflected XSS into attribute with angle brackets HTML-encoded | [Solved](https://github.com/ncKien05/PortSwigger/blob/main/Cross-site%20scripting/Solution/lab19.py) |
+| Apprentice | Stored XSS into anchor `href` attribute with double quotes HTML-encoded | [Solved](https://github.com/ncKien05/PortSwigger/blob/main/Cross-site%20scripting/Solution/lab16.py) |
+| Apprentice | Reflected XSS into a JavaScript string with angle brackets HTML encoded | [Solved](https://github.com/ncKien05/PortSwigger/blob/main/Cross-site%20scripting/Solution/lab15.py) |
+| Practitioner | DOM XSS in `document.write` sink using source `location.search` inside a `select` element | [Solved](https://github.com/ncKien05/PortSwigger/blob/main/Cross-site%20scripting/Solution/lab4.py) |
+| Practitioner | DOM XSS in AngularJS expression with angle brackets and double quotes HTML-encoded | [Solved](https://github.com/ncKien05/PortSwigger/blob/main/Cross-site%20scripting/Solution/lab8.py) |
+| Practitioner | Reflected DOM XSS | [Solved](https://github.com/ncKien05/PortSwigger/blob/main/Cross-site%20scripting/Solution/lab9.py) |
+| Practitioner | Stored DOM XSS | [Solved](https://github.com/ncKien05/PortSwigger/blob/main/Cross-site%20scripting/Solution/lab10.py) |
+| Practitioner | Reflected XSS into HTML context with most tags and attributes blocked | [Solved](https://github.com/ncKien05/PortSwigger/blob/main/Cross-site%20scripting/Solution/lab11.py) |
+| Practitioner | Reflected XSS into HTML context with all tags blocked except custom ones | [Solved](https://github.com/ncKien05/PortSwigger/blob/main/Cross-site%20scripting/Solution/lab12.py) |
+| Practitioner | Reflected XSS with some SVG markup allowed | [Solved](https://github.com/ncKien05/PortSwigger/blob/main/Cross-site%20scripting/Solution/lab14.py) |
+| Practitioner | Reflected XSS in canonical link tag | [Solved](https://github.com/ncKien05/PortSwigger/blob/main/Cross-site%20scripting/Solution/lab17.py) |
+| Practitioner | Reflected XSS into a JavaScript string with single quote and backslash escaped | [Solved](https://github.com/ncKien05/PortSwigger/blob/main/Cross-site%20scripting/Solution/lab18.py) |
+| Practitioner | Reflected XSS into a JavaScript string with angle brackets and double quotes HTML-encoded and single quotes escaped | [Solved](https://github.com/ncKien05/PortSwigger/blob/main/Cross-site%20scripting/Solution/lab20.py) |
+| Practitioner | Stored XSS into `onclick` event with angle brackets and double quotes HTML-encoded and single quotes and backslash escaped | [Solved](https://github.com/ncKien05/PortSwigger/blob/main/Cross-site%20scripting/Solution/lab22.py) |
+| Practitioner | Reflected XSS into a template literal with angle brackets, single, double quotes, backslash and backticks Unicode-escaped | [Solved](https://github.com/ncKien05/PortSwigger/blob/main/Cross-site%20scripting/Solution/lab23.py) |
 | Practitioner | Exploiting cross-site scripting to steal cookies | [Not Solved] |
 | Practitioner | Exploiting cross-site scripting to capture passwords | [Not Solved] |
 | Practitioner | Exploiting XSS to bypass CSRF defenses | [Not Solved] | 
 | Expert | Reflected XSS with AngularJS sandbox escape without strings | [Not Solved] | 
 | Expert | Reflected XSS with AngularJS sandbox escape and CSP | [Not Solved] | 
-| Expert | Reflected XSS with event handlers and `href` attributes blocked | [Solved](https://github.com/ncKien05/PortSwigger/blob/main/Cross-Site_Scripting/Solution/lab13.py) | 
-| Expert | Reflected XSS in a JavaScript URL with some characters blocked | [Not Solution](https://github.com/ncKien05/PortSwigger/blob/main/Cross-site%20scripting/Solution/lab21.py) | 
+| Expert | Reflected XSS with event handlers and `href` attributes blocked | [Solved](https://github.com/ncKien05/PortSwigger/blob/main/Cross-site%20scripting/Solution/lab13.py) | 
+| Expert | Reflected XSS in a JavaScript URL with some characters blocked | [Not Solved]| 
 | Practitioner | Reflected XSS protected by very strict CSP, with dangling markup attack | [Not Solved] | 
 | Expert | Reflected XSS protected by CSP, with CSP bypass | [Not Solved] | 
